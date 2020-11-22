@@ -1,0 +1,166 @@
+body {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-family: 'Agency FB';
+    font-weight: bold;
+}
+
+
+/* ----------home.html------------- */
+/* Header */
+.header {
+    background-image: url('../html/slider/slider.jpg');
+    /* background-size: cover; */
+    height: 100vh;
+    color: white;
+}
+
+ul li a {
+    color: white;
+}
+
+.header-description {
+    margin-top: 25vh;
+}
+
+.header-description button {
+    border-radius: 50px;
+    padding: 2px 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+/* What We Do */
+.what-we-do {
+    background-image: url('../html/tech.jpg');
+    height: 100vh;
+    color: white;
+}
+
+.green {
+    background-color: #3fc7b0;
+}
+.orange {
+    background-color: #f67a68;
+}
+.blue {
+    background-color: #339bc2;
+}
+.red {
+    background-color: #c83f43;
+}
+.purple {
+    background-color: #a96eb7;
+}
+.brown {
+    background-color: #be8864;
+}
+
+.green, .orange, .blue, .red, .purple, .brown {
+    margin: 20px;
+    padding: 15px;
+    height: 150px;
+}
+
+/* Our Apps */
+.our-apps {
+    background-image: url('../html/apps.jpg');
+    background-repeat: round;
+    height: 90vh;
+    color: white;
+    display: flex;
+}
+
+.our-apps-desc {
+    align-self: flex-end;
+}
+
+.our-apps button {
+    border-radius: 50px;
+    padding: 2px 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Featured Products */
+.featured-products button {
+    border-radius: 50px;
+    padding: 3px 25px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin: 20px 0;
+}
+
+/* Contact Us */
+.contact-us {
+    background-image: url('../html/contact.jpg');
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us button {
+    border-radius: 50px;
+    padding: 2px 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer div {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* -------------contact.html--------------- */
+.contact-header {
+    background-image: url('../html/tech.jpg');
+    background-size: cover;
+    height: 70vh;
+    color: white;
+}
+
+/* ---------------train.html----------------- */
+.train-header {
+    background-image: url('../html/projects.jpg');
+    background-size: cover;
+    height: 70vh;
+    color: white;
+}
+.our-work {
+    padding: 50px;
+}
+
+/* --------------projects.html-------------- */
+.deliverables {
+    background-color: rgb(214, 213, 210);
+}
+
+button.download {
+    background-color: rgb(150, 206, 94);
+    border-radius: 50px;
+}
+
+/* -------------shop.html-------------- */
+.card {
+    border: 0;
+}
